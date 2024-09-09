@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Página Web</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+header {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 1em 0;
+}
+section#profile {
+max-width: 800px;
+margin: 2em auto;
+padding: 1em;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#profile-pic {
+width: 150px;
+height: auto;
+border-radius: 50%;
+display: block;
+margin: 0 auto;
+}
+footer {
+text-align: center;
+padding: 1em 0;
+background-color: #333;
+color: #fff;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Mi Página Web</h1>
+</header>
+<section id="profile">
+<h2>Mi Perfil</h2>
+<img src="https://media.licdn.com/dms/image/D4E03AQEW1GHF6IY_wg/profile-displayphoto-shrink_200_200/0/1719663770159?e=2147483647&v=beta&t=IDigFFnwbqlospQTjJ9ZIa3NYwaIGpmDpjRJ7-_3tl4"
+alt="Mi Foto" id="profile-pic">
+<p><strong>Nombre Completo:</strong> Jose Eduardo Colmenares Pérez</p>
+<p><strong>Edad:</strong> 21 años</p>
+<p><strong>Dirección:</strong> Calle 55 #10, 25, Bucaramanga</p>
+<p><strong>Estudios:</strong> Ingeniero en sistemas</p>
+<p><strong>Experiencia Laboral:</strong> Desarrollador Junior</p>
+<p><strong>Perfil Laboral Deseado:</strong> Soy un profesional con amplia experiencia en la implementación y
+gestión de soluciones de API utilizando Apigee, junto con una sólida formación en desarrollo con Java. Mi
+experiencia incluye el diseño de arquitecturas de API escalables y seguras, optimización del rendimiento de
+servicios web y la integración de soluciones basadas en microservicios. He trabajado en entornos ágiles,
+liderando proyectos que combinan la robustez de Apigee con la flexibilidad y el poder de Java para ofrecer
+soluciones innovadoras y eficientes.</p><br><br><br>
+</section>
+<footer>
+<p>&copy; 2024 Jose Eduardo Colmenares Pérez. Todos los derechos reservados.</p>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+const profileSection = document.getElementById('profile');
+profileSection.addEventListener('click', () => {
+alert('¡Gracias por visitar mi perfil!');
+});
+});
+</script>
+</body>
+</html>
